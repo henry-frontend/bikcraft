@@ -60,6 +60,6 @@
     font-size: 3rem;
   }
   .depoimento p::before {
-    top: -20px;
+    content: "“";
   }
 }
