@@ -90,7 +90,6 @@
   .depoimento p {
     font-size: 1rem;
   }
-
   .depoimento p::before {
     content: "“";
     left: -18px;
