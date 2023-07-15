@@ -57,6 +57,23 @@
   }
   .depoimento p::before,
   .depoimento p::after {
+    font-size: 4rem;
+  }
+  .depoimento p::before {
+    content: "“";
+    left: -35px;
+    top: -16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .depoimento p::before,
+  .depoimento p::after {
     font-size: 3rem;
+  }
+  .depoimento p::before {
+    content: "“";
+    left: -20px;
+    top: -10px;
   }
 }
