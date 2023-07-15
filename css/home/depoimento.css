@@ -28,7 +28,7 @@
 
 .depoimento p::before,
 .depoimento p::after {
-  font-size: 4rem;
+  font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
 }
@@ -54,5 +54,13 @@
   .depoimento-conteudo {
     padding: 40px 20px;
     justify-self: center;
+  }
+  .depoimento p::before,
+  .depoimento p::after {
+    font-size: 3rem;
+  }
+  .depoimento p::before {
+    left: -20px;
+    top: -20px;
   }
 }
