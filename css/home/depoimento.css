@@ -69,10 +69,31 @@
 @media (max-width: 600px) {
   .depoimento p::before,
   .depoimento p::after {
-    font-size: 2rem;
+    font-size: 3rem;
   }
+  .depoimento p {
+    font-size: 1.5rem;
+  }
+
   .depoimento p::before {
     content: "“";
-    left: -5px;
+    left: -25px;
+    top: -10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .depoimento p::before,
+  .depoimento p::after {
+    font-size: 2rem;
+  }
+  .depoimento p {
+    font-size: 1rem;
+  }
+
+  .depoimento p::before {
+    content: "“";
+    left: -18px;
+    top: -5px;
   }
 }
