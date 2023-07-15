@@ -28,7 +28,7 @@
 
 .depoimento p::before,
 .depoimento p::after {
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--cor-p2);
   position: absolute;
 }
