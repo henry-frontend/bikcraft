@@ -59,8 +59,4 @@
   .depoimento p::after {
     font-size: 3rem;
   }
-  .depoimento p::before {
-    left: -20px;
-    top: -20px;
-  }
 }
