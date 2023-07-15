@@ -73,5 +73,6 @@
   }
   .depoimento p::before {
     content: "“";
+    left: -5px;
   }
 }
