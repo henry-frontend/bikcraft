@@ -52,7 +52,6 @@ const galeriaContainer = document.querySelector(".bicicleta-imagens");
 function trocarImagem(event) {
   const img = event.currentTarget;
   const media = matchMedia("(min-width: 937px)").matches;
-  console.log(media);
   if (media) {
     galeriaContainer.prepend(img);
   }
@@ -63,3 +62,9 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+// Animações
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
